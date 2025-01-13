@@ -1,0 +1,20 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "#00ff00"
+      - bold
+    inactiveBorderColor:
+      - "#00FFD1"
+      - bold
+  authorColors:
+    'Kate Aubrey Cellan': '#b3b3ff'
+    'Miyabi Hoshimi': '#b3b3ff'
+  showDivergenceFromBaseBranch: arrowAndNumber
+git:
+  overrideGpg: true
+os:
+  editPreset: 'nano'
+notARepository: skip
+refresher:
+  refreshInterval: 10
+  fetchInterval: 30
