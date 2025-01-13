@@ -1,0 +1,35 @@
+# Custom rc file for loading bash or zsh
+HISTCONTROL=ignoreboth
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000000
+HISTFILESIZE=200000000
+
+
+alias cls="clear"
+alias gc="git clone"
+alias lg="lazygit"
+alias lad="lazydocker"
+alias gf="git fetch"
+alias gp="git pull"
+
+alias dcl="docker compose logs"
+alias dcd="docker compose down"
+alias dce="docker compose exec"
+alias dcr="docker compose restart"
+alias dcu="docker compose up -d"
+alias dcub="docker compose up -d --build"
+alias docker-compose="docker compose"
+alias kill-containers="docker ps -aq | xargs docker kill"
+alias prune-containers="docker container prune -f"
+alias prune-images="docker image prune"
+alias prune-networks="docker network prune -f"
+alias prune-volumes="docker volume prune"
+alias docker-reset="docker system prune -a"
+
+export PATH=~/.local/bin:$PATH
+# export PATH=~/.local/share/node/bin:$PATH
+# export PATH=~/.local/share/android-studio/bin:$PATH
+# export PATH=~/.local/share/flutter/flutter/bin:$PATH
+export SSLKEYLOGFILE=/tmp/sslkeylogfile-daijobudes.log
+
