@@ -12,8 +12,13 @@ gui:
   showDivergenceFromBaseBranch: arrowAndNumber
 git:
   overrideGpg: true
+  # Set to 'allBranches' if wanting to forward all branches automatically
+  autoForwardBranches: none
 os:
   editPreset: 'nano'
+  # For custom aliases to work, uncomment this and use own script
+  # Docs: https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#using-aliases-or-functions-in-shell-commands
+  # shellFunctionsFile: ~/.my_aliases.sh
 notARepository: skip
 refresher:
   refreshInterval: 10
