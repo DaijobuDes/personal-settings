@@ -2,7 +2,7 @@
 
 # Current output
 # [01/14/25 10:29:32] daijobudes in /tmp λ
-PROMPT='%{$fg[yellow]%}[%D{%m/%f/%y} %D{%L:%M:%S}] '$PROMPT
+PROMPT='%{$fg[yellow]%}[%D{%m/%d/%y %H:%M:%S}] '$PROMPT
 HISTCONTROL=ignoreboth
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
